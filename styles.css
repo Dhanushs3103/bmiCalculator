@@ -2,7 +2,7 @@
     width: 50%;
     margin: auto;
     height: auto;
-    margin-top: 90px;
+    margin-top: 70px;
     background-color:#fcfafa;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -52,7 +52,6 @@
 }
 .input:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transform: scale(1.1);
 
 }
 
@@ -60,13 +59,13 @@
     border: 0;
     background-color: #ED0331;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 13px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-top: 50px;
     position: relative;
     left: 280px;
-
+    font-size: 18px;
 }
 #butt:hover {
     cursor: pointer;
