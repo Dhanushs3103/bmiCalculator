@@ -5,10 +5,10 @@ button.addEventListener("click",function(){
    let input2=document.querySelector("#inp2").value;
   let bmi=(input1) / ((input2*input2))*10000;
   if(bmi <= 18.4) {
-     output.textContent="Your BMI is "+bmi+", which means your UnderWeight, so eat litle more but healthy food 🍲🥗🥙";
+     output.textContent="Your BMI is "+bmi+", which means your UnderWeight, so eat little more but healthy food 🍲🥗🥙";
   }
   else if(bmi >= 18.5 && bmi <= 24.9) {
-   output.textContent="Your BMI is "+bmi+", which means your NormalWeight, 😍😍";
+   output.textContent="Your BMI is "+bmi+", which means your normalHeight, 😍😍";
   }
   else if(bmi >= 25 && bmi <= 29.9) {
    output.textContent="Your BMI is "+bmi+", which means your OverWeight, do some exercise 🤸‍♂️";
