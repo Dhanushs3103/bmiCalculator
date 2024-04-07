@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div id="parent">
+        <div class="child-1">
+            <h1>CHECK YOUR BMI</h1>
+        </div>
+        <div>
+            <div id="chid">
+                <h3>Enter you weight and height below to check your BMI results</h3>
+            </div>
+          <div id="flex">
+            <div>
+                <p class="para">Enter your weigth here (kgs) :</p>
+                    <input type="number" placeholder="Enter your weight" id="inp1" class="input">
+            </div>
+            <div>
+                <p class="para">Enter your height here (cm) :</p>
+                    <input type="number"  placeholder="Enter your height" id="inp2"  class="input">
+            </div>
+          </div>
+            <button id="butt">CALCULATE BMI</button>
+        </div>
+        <div>
+            <h2 id="state" >After entering your height and weigth, click on the above button 👆</h2>
+        </div>
+    </div>
+    
+</body>
+<script src="./main.js"></script>
+</html>
