@@ -2,7 +2,7 @@
     width: 50%;
     margin: auto;
     height: auto;
-    margin-top: 120px;
+    margin-top: 90px;
     background-color:#fcfafa;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -47,6 +47,8 @@
     border-color:#ffdb66  ;
     border-radius: 10px;
     font-size: large;
+    padding: 10px;
+    text-align: center;
 }
 .input:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -60,16 +62,14 @@
     color: #FFFFFF;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 50px;
     position: relative;
-    left: 320px;
+    left: 280px;
 
 }
 #butt:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transform: scale(0.9);
-
+    cursor: pointer;
 
 }
 
